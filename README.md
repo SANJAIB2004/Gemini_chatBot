@@ -1,3 +1,3 @@
-## ChatBot using the Gemini API
+# ChatBot using the Gemini API
 
-# similar to Gemini Just try it.
+##similar to Gemini Just try it.
