@@ -12,7 +12,7 @@ load_dotenv()
 st.set_page_config(
     page_title="Chat with Gemini-Pro!",
     page_icon=":brain:",  # Favicon emoji
-    layout="centered",  # Page layout option
+    layout="wide",  # Page layout option
 )
 
 GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
@@ -36,7 +36,7 @@ if "chat_session" not in st.session_state:
 
 
 # Display the chatbot's title on the page
-st.title("🤖 Gemini Pro - ChatBot")
+st.title("🤖 Simple Answer - ChatBot")
 
 # Display the chat history
 for message in st.session_state.chat_session.history:
